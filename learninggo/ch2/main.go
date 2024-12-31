@@ -34,8 +34,8 @@ func ex3() {
 	fmt.Println("=== EXERCISE 3 ===")
 
 	var b byte = 255
-	var smallI int32 = 2147483647
-	var bigI uint64 = 18446744073709551615
+	var smallI int32 = 2_147_483_647
+	var bigI uint64 = 18_446_744_073_709_551_615
 
 	b += 1
 	smallI += 1
